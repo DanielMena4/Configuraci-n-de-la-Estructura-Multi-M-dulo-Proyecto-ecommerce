@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ProductApplication",
+            "request": "launch",
+            "mainClass": "com.ads.ecommerce.product.ProductApplication",
+            "projectName": "product"
+        },
+        {
+            "type": "java",
+            "name": "OrderApplication",
+            "request": "launch",
+            "mainClass": "com.ads.ecommerce.order.OrderApplication",
+            "projectName": "order"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-CustomerApplication<customer>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.ads.ecommerce.customer.CustomerApplication",
+            "projectName": "customer",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
