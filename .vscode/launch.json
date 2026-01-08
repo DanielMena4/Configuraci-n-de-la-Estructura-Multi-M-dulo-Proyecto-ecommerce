@@ -2,6 +2,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "ApiGatewayApplication",
+            "request": "launch",
+            "mainClass": "com.ads.api_gateway.ApiGatewayApplication",
+            "projectName": "api-gateway"
+        },
+        {
+            "type": "java",
+            "name": "ApigatewayApplication",
+            "request": "launch",
+            "mainClass": "com.ads.ecommerce.infraestructure.apigateway.ApigatewayApplication",
+            "projectName": "apigateway"
+        },
+        {
+            "type": "java",
+            "name": "AdminServerApplication",
+            "request": "launch",
+            "mainClass": "com.ads.admin_server.AdminServerApplication",
+            "projectName": "admin-server"
+        },
+        {
+            "type": "java",
+            "name": "EurekaServerApplication",
+            "request": "launch",
+            "mainClass": "com.ads.eureka.EurekaServerApplication",
+            "projectName": "eureka"
+        },
+        {
+            "type": "java",
             "name": "ProductApplication",
             "request": "launch",
             "mainClass": "com.ads.ecommerce.product.ProductApplication",
